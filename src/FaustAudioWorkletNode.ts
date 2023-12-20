@@ -230,7 +230,6 @@ export class FaustAudioWorkletNode<Poly extends boolean = false> extends (global
         this.port.postMessage({ type: "destroy" });
         this.port.close();
     }
-
 }
 
 /**
